@@ -1,8 +1,8 @@
 var request = require('request');
 const templateLib = require('./template');
 
-const FLUTTERWAVE_PUBLIC_KEY = "XXXXXXXXXXXXXX";
-const FLUTTERWAVE_SECRET_KEY = "XXXXXXXXXXXXXX";
+const FLUTTERWAVE_PUBLIC_KEY = "FLWPUBK-76d2394b7d645519986bd625fb55d1e8-X";
+const FLUTTERWAVE_SECRET_KEY = "FLWSECK-e0dcc40ba08590465fd946586da45dee-X";
 
 module.exports.render_checkout = function (req, res) {
 

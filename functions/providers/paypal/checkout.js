@@ -1,6 +1,6 @@
 const templateLib = require('./template');
 
-const paypal_client_id= 'XXXXXXXXXXXXXX';
+const paypal_client_id= 'IDE7RR4J8BRH8D4';
 
 module.exports.render_checkout = function(request, response){
     var amount = request.body.amount;

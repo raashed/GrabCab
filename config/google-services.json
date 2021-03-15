@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "786350250851",
+    "firebase_url": "https://veho-taxi-booking-default-rtdb.firebaseio.com",
+    "project_id": "veho-taxi-booking",
+    "storage_bucket": "veho-taxi-booking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786350250851:android:07b0050c5d60b357055156",
+        "android_client_info": {
+          "package_name": "tk.raashed.veho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786350250851-jvvk940un0mavopqsge3belr92ctuqn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8EhLNoDM8ZxzLOksa8XIQF6frk2T7tTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786350250851-jvvk940un0mavopqsge3belr92ctuqn7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "786350250851-ss8attagkmkl9ki8gdqn24tlpll2b156.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "tk.raashed.veho"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

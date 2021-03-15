@@ -8,16 +8,8 @@ admin.initializeApp();
 
 const providers = [
     'paypal',
-    'braintree',
-    'stripe',
-    'paytm',
-    'payulatam',
     'flutterwave',
     'paystack',
-    'securepay',
-    'payfast',
-    'liqpay',
-    'culqi'
 ]
 
 exports.paypal = require('./providers/paypal');
@@ -119,7 +111,7 @@ exports.setup = functions.https.onRequest((request, response) => {
             "FacebookHandle": "https://twitter.com/exicube",
             "InstagramHandle": "",
             "AppleStoreLink": "https://apps.apple.com/app/id1501332146#?platform=iphone",
-            "PlayStoreLink": "https://play.google.com/store/apps/details?id=com.exicube.grabcab"
+            "PlayStoreLink": "https://play.google.com/store/apps/details?id=tk.raashed.veho"
         }
     }
     
