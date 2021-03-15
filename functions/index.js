@@ -2,14 +2,22 @@ const fs = require('fs');
 const functions = require('firebase-functions');
 const fetch = require("node-fetch");
 const admin = require('firebase-admin');
-const language = require('./language.json');
+const language = require('./../config/language.json');
 
 admin.initializeApp();
 
 const providers = [
     'paypal',
+    // 'braintree',
+    // 'stripe',
+    // 'paytm',
+    // 'payulatam',
     'flutterwave',
     'paystack',
+    // 'securepay',
+    // 'payfast',
+    // 'liqpay',
+    // 'culqi'
 ]
 
 exports.paypal = require('./providers/paypal');
